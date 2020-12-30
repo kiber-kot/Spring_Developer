@@ -4,11 +4,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class MenuController {
+public class SecondControoler {
 
-    //   /organization/horn_and_try
-    @GetMapping("/menu")
-    public String getMenu(){
-        return "menuOrganization/menu";
+    @GetMapping("/exit")
+    public String exit(){
+        return "second/exit";
     }
 }

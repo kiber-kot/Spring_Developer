@@ -13,7 +13,7 @@ import ru.stroev.springcourse.model.Person;
 import javax.validation.Valid;
 import java.util.Map;
 
-// Начать в 26 урока
+// Начать в 27 урока
 @Controller
 @RequestMapping("/people")
 public class PeopleController {

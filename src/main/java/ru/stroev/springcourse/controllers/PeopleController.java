@@ -5,15 +5,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 import ru.stroev.springcourse.dao.PersonDAO;
-import ru.stroev.springcourse.model.Currenty;
 import ru.stroev.springcourse.model.Person;
 
 import javax.validation.Valid;
-import java.util.Map;
 
-// Начать в 27 урока
+// Начать в 28 урока
 @Controller
 @RequestMapping("/people")
 public class PeopleController {
